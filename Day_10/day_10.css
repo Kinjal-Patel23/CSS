@@ -1,0 +1,26 @@
+p::first-letter {
+    font-size: 70px;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+
+div p:first-of-type {
+    color: green;
+}
+
+
+div p:last-of-type {
+    font-weight: bold;
+}
+
+ p:nth-last-child(2) {
+    color:blueviolet;
+}
+
+
+::selection {
+    background-color: yellow;
+}

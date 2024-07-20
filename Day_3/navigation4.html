@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    .nav-bar{
+        display: flex;
+        justify-content: space-around;
+        word-spacing: 40px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 25px;
+        background-color: cadetblue;
+        font-weight: 900;
+    }
+
+    .nav-bar a{
+        text-decoration: none;
+        color: lightsalmon;
+
+    }
+    p{
+        font-size: 30px;
+        color: chartreuse;
+        text-transform: lowercase;
+
+    }
+</style>
+<body>
+    
+    <div class="nav-bar">
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXZJREFUSEvl1S9IXmEUx/GPDMQxTAtmEQTZihgGQ8EFxTAsCxYXDCa1LQyzIAabsrIwVFjYwkANwvwDirCVFScsCFaDSUw69D7wXHi5u6/33vflTXvic875fc85zzn3tmnxaWuxviqALhzGhIZwUSa5soBOHON5FD3BS1wVQcoA2rGLwYzYEV7h9iFIESDYv2G8jsgXTOCuHqQIsIKZgjasYrYRwHssFvU42oPvUp5vvQomsV5SPHV7i41sTB5gDFt4VBHwN5m0UezVxmUB/XEcOyqKp+7XycSFHfmVXtQCevADTxsUT8Mu8QJn4aIW8Ae9TYqn4ad4lgWEy74cQMgkVJc9YfbP0Z1j+51ufb0pShcnbOoBNvE6I/QR0/Fhd6LtH70iwCdM4Qk+RMgNtjGH8Khf8aZRQIh7h+WcNoTkFjBfY6tcQRr7GWv4mWzs46RlA7E92bY1DCg7XP8RYD8Zz+GyfYl+3zFS5mNXUfdh96IfTtOwe9jEORnJaYfEAAAAAElFTkSuQmCC"/>Home</a>
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALpJREFUSEvtlUEOgjAQRR+nYGFCQljobbgMG2+AF/IgbNwZSVh4C41REkpofsfSDaHblv/m/ynTjMQrS6yPAtRAC5w8hdyABrj6ClWAJ5ALl3eg+hfw+n3oK0Tty4iUgNp3ACrv0Pvg9GVqfQAOoSqhfZkCRrsrMb7pbAuwVjSOjiWi+b+gembuQXKANUKzgx2AuhXREfVAYVXxnH8A5XxUfKbpBThGQjrgPL5y6kWLZLnDLlpsSSC5gzdC3x8ZYEHdLgAAAABJRU5ErkJggg=="/>Portfolio</a>
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXdJREFUSEvF1b1LXUEQBfCfxCAEBZuk0EZEES0kSSdi4z9gaRcQtFIQsQ0EYpE6nUVIlSplsLIWFRFMMIUfiCCCoGAQUSMkJndDHlyWe9+718fDKXfPzJkzszPbpMHW1OD4HozgEaYxh64MlauYxWatCmQp6MVnPK/ljE+YSRK5yMPGBK3YRUeB4BXIGobxJ8snJniNhRLBK9AxfClCsIO+CLiHk9RZP55FmA+YKkLwEy0p4DYGI8duHERnKxgpQhDX8RyvcJVyDoTvo2DXmEeowLfkhf2o3Mc9yGxUyZ58xYs8gjvqHr5feNxIBb/RnEUQyhUU1GulCG4xXmVSw4taTJcEuQQh87gHW8kAvawiKeyso2jyb/AkrweneBoFXEdQkmVtGQkcIij7Z/Ez/YiJOpvwNtlLb/IIOvEd7fckOU428UAydJd5BOF8CMsIm7WMhWkfxUbaKe9H68Hk/0+nFtEZlpId9g77cUYP9mWWKU1VbMMV/AUjxDwZm+Rt8QAAAABJRU5ErkJggg=="/>Blog</a>
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAShJREFUSEu11b0uREEYgOFnuQUkEpHo0LgGhQuQqNyARiEUCipsg0Si0ChUCtdA4RI0egoi4QokfnbkrMjZ2d0Z55xTf/O+33w/Z1oa/loN88UEK9jDXAX5LRbD+ZjgHvMV4N2jP+yY4KsG+C87V7CPsyKBdewMSCb7Bps4KQGD4KCPpEcwrDTjeCvBJvFclyDAXkqwMbymCrpx/W6yjcMSbBWXdQkCp41TjGIJR52mT6QKhvUgd3qzmxwEj3goTDOYrmtMr3CBa3wW0JGiTGtYjoiS9uC9M5phoc6H1GcLx6WYpBLtFo1NqX9Ywo0/gUmCKTyl0LGAu0GC2B7kvBehJx+5gsTko2FJTW5E0PiDE57M8N+frZD+TbEj0RetArf3aM6U/Ev8DavcMBm78qY2AAAAAElFTkSuQmCC"/>Contact</a>
+    </div>
+
+
+    <img src="https://i.ytimg.com/vi/SXbEN5lWRt8/maxresdefault.jpg" width="100%" >
+
+    <p>
+        A blog is an informational website consisting of discrete, 
+        often informal diary-style text entries. Posts are typically 
+        displayed in reverse chronological order so that the most recent 
+        post appears first, at the top of the web page.
+    </p>
+</body>
+</html>

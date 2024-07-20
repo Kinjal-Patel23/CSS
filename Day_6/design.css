@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.srch{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 20%;
+    font-size: 12px;
+}
+
+.srch a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-1{
+   background-color: white;
+    text-align: right;
+    padding: 20px;
+    height: 10px;
+    top: 0;
+    margin-bottom: 20px;
+    
+
+}
+
+.nav-1 a{
+    color: black;
+    display: inline-block;
+    margin-right: 90px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.dfl{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://static.wixstatic.com/media/baac51_d623fe1790ed419a89d20aa05f6064b2.jpg/v1/fill/w_1349,h_500,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/baac51_d623fe1790ed419a89d20aa05f6064b2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+
+}
+
+.content{
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    
+}
+
+.main {
+    background: #fff;
+    display: flex;
+    align-content: center;
+    width: 80%;
+    padding-left: 70px;
+    
+    
+}
+
+.image {
+    width: 50%;
+    height: 370px;
+}
+
+.cont {
+    padding: 20px;
+    width: 90%;
+    border: 1px solid gray;
+    height: 370px;
+    border-left: 0;
+
+}
+
+.user {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.user1{
+    width: 20px;
+    height: 20px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 10px;
+    color: #5E5E5E;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
+.cont2 {
+    font-size: 16px;
+    color: #555;
+    margin: 10px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.vcl {
+    display: flex;
+    justify-content: space-between;
+    color: #777;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    margin-top: 90px;
+}
+
+.btn{
+    margin: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #E8E8E8; 
+    color: black;
+}
+
+.img1{
+    width: 70%;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.gallery{
+    height: 300px;
+    width: 100%;
+}
+
+.gallery h2{
+    padding-left: 52px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.sub-gallery{
+    height: 280px;
+    width: 10%;
+    margin-inline: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub-gallery img{
+    margin-inline: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.ttl{
+    padding-top: 40px;
+    position: relative;
+}
+
+.ttl p{
+    font-size: 20px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.foot2 {
+    width: 100%;
+    padding: 40px;
+       
+   
+}
+
+
+.icon {
+    padding-left: 50%;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.gmail{
+    font-size: 13px;
+    padding: 10px;
+}
+
+.email input{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.email button {
+    padding-left: 29%;
+    padding-right: 29%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;;
+    color: white; 
+    background-color: black;
+}
+
+.email button:hover{
+    background-color: #E8E8E8;
+    color: black;
+}
+
+.copyright{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
